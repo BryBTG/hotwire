@@ -57,41 +57,34 @@ Citizen.CreateThread(function()
 						exports['progressBars']:startUI(7000, "Kortslutter ledninger")
 						Citizen.Wait(7500)
 						enableEngine()
-						else if GetVehicleClass(vehicle) == 1 then
-							exports['progressBars']:startUI(8000, "Kortslutter ledninger")
-							Citizen.Wait(8500)
-							enableEngine()
-							else if GetVehicleClass(vehicle) == 2 then
-								exports['progressBars']:startUI(9000, "Kortslutter ledninger")
-								Citizen.Wait(9500)
-								enableEngine()
-								else if GetVehicleClass(vehicle) == 3 then
-									exports['progressBars']:startUI(10000, "Kortslutter ledninger")
-									Citizen.Wait(10500)
-									enableEngine()
-									else if GetVehicleClass(vehicle) == 4 then
-										exports['progressBars']:startUI(11000, "Kortslutter ledninger")
-										Citizen.Wait(11500)
-										enableEngine()
-										else if GetVehicleClass(vehicle) == 5 then
-											exports['progressBars']:startUI(12000, "Kortslutter ledninger")
-											Citizen.Wait(12500)
-											enableEngine()
-											else if GetVehicleClass(vehicle) == 6 then
-												exports['progressBars']:startUI(13000, "Kortslutter ledninger")
-												Citizen.Wait(13500)
-												enableEngine()
-												else if GetVehicleClass(vehicle) == 7 then
-													exports['progressBars']:startUI(14000, "Kortslutter ledninger")
-													Citizen.Wait(14500)
-													enableEngine()
-												end
-											end
-										end
-									end
-								end
-							end
-						end
+					elseif GetVehicleClass(vehicle) == 1 then
+						exports['progressBars']:startUI(8000, "Kortslutter ledninger")
+						Citizen.Wait(8500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 2 then
+						exports['progressBars']:startUI(9000, "Kortslutter ledninger")
+						Citizen.Wait(9500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 3 then
+						exports['progressBars']:startUI(10000, "Kortslutter ledninger")
+						Citizen.Wait(10500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 4 then
+						exports['progressBars']:startUI(11000, "Kortslutter ledninger")
+						Citizen.Wait(11500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 5 then
+						exports['progressBars']:startUI(12000, "Kortslutter ledninger")
+						Citizen.Wait(12500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 6 then
+						exports['progressBars']:startUI(13000, "Kortslutter ledninger")
+						Citizen.Wait(13500)
+						enableEngine()
+					elseif GetVehicleClass(vehicle) == 7 then
+						exports['progressBars']:startUI(14000, "Kortslutter ledninger")
+						Citizen.Wait(14500)
+						enableEngine()
 					end
 				end
 			end
